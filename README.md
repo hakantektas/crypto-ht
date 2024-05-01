@@ -178,6 +178,5 @@ Bu projeye katkıda bulunmak isterseniz, lütfen bir GitHub issue açın veya bi
 ## Ekran Görüntüleri
 
 ![Uygulama Ekran Görüntüsü](<img width="572" alt="Screenshot 2024-05-01 at 23 01 24" src="https://github.com/hakantektas/crypto-ht/assets/72494835/f2dd8cf4-72a1-4ba9-a2f6-b8aaf23c1bf2">)
-![Ekran Görüntüsü Açıklaması](<img width="572" alt="consoleApp" src="https://github.com/hakantektas/crypto-ht/assets/72494835/6caa0b8f-c1cd-4ea5-87da-46b846113437">)
 
   
