@@ -1,0 +1,13 @@
+{
+  "name": "cripto-ht",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runPythonScript.js",
+  "scripts": {
+    "getRSI"    : "node /Users/hakantektas/Desktop/cryto-ht/jsFile/runPythonScript.js",
+    "getSymbol" : "node /Users/hakantektas/Desktop/cryto-ht/jsFile/runPythonScript2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
