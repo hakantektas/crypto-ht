@@ -1,11 +1,11 @@
 {
   "name": "cripto-ht",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "runPythonScript.js",
   "scripts": {
-    "getRSI"    : "node ./../cryto-ht/jsFile/runPythonScript.js",
-    "getSymbol" : "node ./../cryto-ht/jsFile/runPythonScript2.js"
+    "getRSI": "node ./../cryto-ht/jsFile/runPythonScript.js",
+    "getSymbol": "node ./../cryto-ht/jsFile/runPythonScript2.js"
   },
   "keywords": [],
   "author": "",
