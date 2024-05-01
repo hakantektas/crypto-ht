@@ -5,7 +5,7 @@ Bu dosyayı çalıştırarak Binance borsasında yer alan USDT paritesinde ki t�
 */
 function runPythonScript2() {
     return new Promise((resolve, reject) => {
-        exec('python3 /Users/hakantektas/Desktop/cryto-ht/pythonFile/getSymbol.py', (error, stdout, stderr) => {
+        exec('python3 /Users/hakantektas/Desktop/cryto-ht/pythonFile//getSymbol.py', (error, stdout, stderr) => {
             if (error) {
                 reject(error);
                 return;

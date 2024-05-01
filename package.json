@@ -4,8 +4,8 @@
   "description": "",
   "main": "runPythonScript.js",
   "scripts": {
-    "getRSI"    : "node /Users/hakantektas/Desktop/cryto-ht/jsFile/runPythonScript.js",
-    "getSymbol" : "node /Users/hakantektas/Desktop/cryto-ht/jsFile/runPythonScript2.js"
+    "getRSI"    : "node ./../cryto-ht/jsFile/runPythonScript.js",
+    "getSymbol" : "node ./../cryto-ht/jsFile/runPythonScript2.js"
   },
   "keywords": [],
   "author": "",
