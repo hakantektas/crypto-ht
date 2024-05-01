@@ -179,4 +179,4 @@ Bu projeye katkıda bulunmak isterseniz, lütfen bir GitHub issue açın veya bi
 
 ## Ekran Görüntüleri
 
-![Uygulama Ekran Görüntüsü](/Users/hakantektas/Desktop/cryto-ht/consoleApp.png)
+![Uygulama Ekran Görüntüsü](././consoleApp.png)
