@@ -2,7 +2,6 @@ const { exec } = require('child_process');
 
 /*
 Bu dosyayı çalıştırarak Binance borsasında yer alan USDT paritesinde ki tüm sembolleri usdt_symbol.json dosyasına yazdırır. 
-Dinamik olarak tüm sembolleri kullanarak scripti
 */
 function runPythonScript2() {
     return new Promise((resolve, reject) => {
