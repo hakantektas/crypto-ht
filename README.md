@@ -21,7 +21,7 @@ Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI
 `requests`: HTTP istekleri yapmak için kullanılır.
 
 ```javascript {"id":"01HWTY2MR14D7N697GC6H2YYSP"}
-pip3 install requests
+npm install requests
 pip3 install chardet
 ```
 

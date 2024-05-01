@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chardet": "^2.0.0",
+    "requests": "^0.3.0"
+  }
 }
