@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HWTZP0RE3VCJ5YVPJESXHT5A
-  version: v3
----
-
 # Binance USDT Paritelerindeki RSI Değeri Kontrolü Projesi
 
 Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI (Relative Strength Index) değerlerini kontrol eden bir Python betiği içerir.
