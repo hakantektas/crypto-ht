@@ -6,34 +6,22 @@ Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI
 *** Binance kripto borsasında USDT paritesinde işlem gören coinlerin RSI değerlerini kontrol etmek için oluşturulmuştur. 
 
 *** RSI değeri 29'un altında olan coinlerin listesini oluşturur.
+ 
 
-İçindekiler
-
-Proje Açıklaması
-
-Kullanım
-
-Gereksinimler
-
-Katkıda Bulunma
-
-Proje Açıklaması
-
-Bu proje, 
-
-## Kullanım/Örnekler
+## Kullanım/Örnekler/Gereksinimler
 
 
-1. Python Kurulumu: Bu betik Python 3 ile yazılmıştır. Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.
+**1. Python Kurulumu:** Bu betik Python 3 ile yazılmıştır. Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.
 
-2. Gerekli Modüllerin Yüklenmesi: Betiği çalıştırmadan önce, gerekli Python modüllerini yüklemeniz gerekebilir. Gerekli modüllerin yüklenmesi için terminal veya komut istemcisinde şu komutu kullanabilirsiniz:
+**2. Gerekli Modüllerin Yüklenmesi:** Betiği çalıştırmadan önce, gerekli Python modüllerini yüklemeniz gerekebilir. Gerekli modüllerin yüklenmesi için terminal veya komut istemcisinde şu komutu kullanabilirsiniz:
 
+`requests`: HTTP istekleri yapmak için kullanılır.
 
 ```javascript
 pip install requests
 ```
 
-3. Betiği Çalıştırma: Betiği çalıştırmak için terminal veya komut istemcisini açın ve betiğin bulunduğu dizine gidin. Daha sonra aşağıdaki komutu kullanarak betiği çalıştırın:
+**3. Betiği Çalıştırma:** Betiği çalıştırmak için terminal veya komut istemcisini açın ve betiğin bulunduğu dizine gidin. Daha sonra aşağıdaki komutu kullanarak betiği çalıştırın:
 
 
 Betik, RSI değeri 29'un altında olan coinlerin sembollerini json dosyasına yazdırır ,
@@ -48,28 +36,17 @@ RSI değeri 29'un altında olan coinleri ve RSI değerlerini console da yazdır�
 python crypto_rsi.py
 ```
 
-4. Sonuçları Görüntüleme: Betik, RSI değeri 29'un altında olan coinlerin sembollerini ve RSI değerlerini ekrana yazdırır.
-
-Gereksinimler
-
-Bu projeyi çalıştırmak için aşağıdaki Python modüllerinin yüklü olması gerekmektedir:
-
-
-`requests`: HTTP istekleri yapmak için kullanılır.
-
-
-Bu modülleri yüklemek için terminal veya komut istemcisinde yukarıdaki adımları izleyebilirsiniz.
-
+**4. Sonuçları Görüntüleme:** Betik, RSI değeri 29'un altında olan coinlerin sembollerini ve RSI değerlerini ekrana yazdırır.
 
   
 ## Özellikler
 
 - RSI (Relative Strength Index), bir varlığın fiyat değişim hızını ve büyüklüğünü analiz etmek için kullanılan bir teknik göstergedir. 
-- Canlı ön izleme
-- Tam ekran modu
-- Tüm platformlara destek
-
-  
+- Bu Python betiği, her bir USDT paritesi için RSI değerini hesaplar ve RSI değeri 29'un altında olanları ekrana yazdırır.
+- Bunu gerçekleştirmek için Binance API'sini kullanır ve her bir coin için son 14 saatlik kapanış fiyatlarını alır.
+- Son olarak, RSI değerini hesaplar ve eğer 29'un altındaysa, coinin sembolünü ve RSI değerini ekrana yazdırır.
+- Bu betiği çalıştırarak, Binance kripto borsasındaki USDT paritesindeki coinlerin RSI değeri 29'un altında olanlarını listeleyebilirsiniz.
+ 
 ## Ortam Değişkenleri
 
 Bu projeyi çalıştırmak için aşağıdaki ortam değişkenlerini .env dosyanıza eklemeniz gerekecek
@@ -134,6 +111,9 @@ Binance borsasından tüm USDT paritelerini çeken ve bu pariteleri JSON format�
 Bu betik Python 3 ile yazılmıştır ve  https://openai.com/ tarafından sağlanan GPT-3 tabanlı bir yardımcı ile oluşturulmuştur.
 
 Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.Aşağıdaki adımları takip ederek yükleyebilirsiniz .
+
+Binance API'leri kullanılmıştır . Daha fazlası için Binance API'leri incelenebilir . https://binance-docs.github.io/apidocs/spot/en/#introduction 
+
 
 **Windows**
 
