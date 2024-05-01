@@ -10,7 +10,7 @@ function runPythonScript() {
             resolve(stdout);
         });
     });
-}////eete
+}
 
 runPythonScript()
     .then((output) => {
