@@ -1,3 +1,9 @@
+---
+runme:
+  id: 01HWTZP0RE3VCJ5YVPJESXHT5A
+  version: v3
+---
+
 # Binance USDT Paritelerindeki RSI Değeri Kontrolü Projesi
 
 Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI (Relative Strength Index) değerlerini kontrol eden bir Python betiği içerir.
@@ -65,7 +71,7 @@ RSI değeri 29 ve altında olan USDT paritesine sahip kripto paraları listeleme
 Projeyi klonlayın
 
 ```bash {"id":"01HWTY2MR21TNQYS436JHZMKWG"}
-  git clone https://link-to-project
+  git clone https://github.com/hakantektas/crypto-ht.git
 ```
 
 Proje dizinine gidin
