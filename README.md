@@ -15,7 +15,8 @@ Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI
 `requests`: HTTP istekleri yapmak için kullanılır.
 
 ```javascript {"id":"01HWTY2MR14D7N697GC6H2YYSP"}
-pip install requests
+pip3 install requests
+pip3 install chardet
 ```
 
 **3. Betiği Çalıştırma:** Betiği çalıştırmak için terminal veya komut istemcisini açın ve betiğin bulunduğu dizine gidin. Daha sonra aşağıdaki komutu kullanarak betiği çalıştırın:
@@ -23,13 +24,13 @@ pip install requests
 Betik, RSI değeri 29'un altında olan coinlerin sembollerini json dosyasına yazdırır ,
 
 ```javascript {"id":"01HWTY2MR21TNQYS4367NZB1MZ"}
-python getSymbol.py
+python3 getSymbol.py
 ```
 
 RSI değeri 29'un altında olan coinleri ve RSI değerlerini console da yazdırır.
 
 ```javascript {"id":"01HWTY2MR21TNQYS436BBER63E"}
-python crypto_rsi.py
+python3 crypto_rsi.py
 ```
 
 **4. Sonuçları Görüntüleme:** Betik, RSI değeri 29'un altında olan coinlerin sembollerini ve RSI değerlerini ekrana yazdırır.
@@ -41,14 +42,6 @@ python crypto_rsi.py
 - Bunu gerçekleştirmek için Binance API'sini kullanır ve her bir coin için son 14 saatlik kapanış fiyatlarını alır.
 - Son olarak, RSI değerini hesaplar ve eğer 29'un altındaysa, coinin sembolünü ve RSI değerini ekrana yazdırır.
 - Bu betiği çalıştırarak, Binance kripto borsasındaki USDT paritesindeki coinlerin RSI değeri 29'un altında olanlarını listeleyebilirsiniz.
-
-## Ortam Değişkenleri
-
-Bu projeyi çalıştırmak için aşağıdaki ortam değişkenlerini .env dosyanıza eklemeniz gerekecek
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
 ## Yükleme
 
