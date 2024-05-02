@@ -1,8 +1,8 @@
 # RSI Value Check Project on Binance USDT Pairs
 
-*** This project contains a Python script that checks the RSI (Relative Strength Index) values of coins in the USDT pairs on the Binance crypto exchange.
+📌 This project contains a Python script that checks the RSI (Relative Strength Index) values of coins in the USDT pairs on the Binance crypto exchange.
 
-*** It was created to check the RSI values of coins traded in the USDT pair on the Binance crypto exchange.
+📌 It was created to check the RSI values of coins traded in the USDT pair on the Binance crypto exchange.
 
 🛑 "This application is not investment advice. Any decision regarding its use must be made by the user. Do your own research or consult a financial advisor before investing." 
 
