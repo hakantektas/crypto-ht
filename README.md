@@ -33,7 +33,7 @@ Projeyi klonlayın
 Proje dizinine gidin
 
 ```bash {"id":"01HWTY2MR21TNQYS436K5X2CEA"}
-  cd crypto-ht
+  cd [your_path]/crypto-ht
 ```
 
 Gerekli paketleri yükleyin
