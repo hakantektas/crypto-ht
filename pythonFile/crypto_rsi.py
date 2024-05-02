@@ -2,20 +2,20 @@ import requests
 import json
 from datetime import datetime
 
-# Şu anki tarih ve saat bilgisini al
+# Get current date and time
 simdi = datetime.now()
 def get_rsi(symbol):
-    # Binance API endpoint'i
+    # Binance API endpoint
     url = f"https://api.binance.com/api/v3/klines?symbol={symbol}&interval=1h&limit=14"
 
-    # Binance API'sinden veri al
+    # Get data from Binance API
     response = requests.get(url)
     data = response.json()
 
-    # Kapanış fiyatlarını al
+    # Get closing prices
     closes = [float(entry[4]) for entry in data]
 
-    # RSI hesaplama
+    # RSI calculation
     ups = sum([closes[i + 1] - closes[i] for i in range(13) if closes[i + 1] > closes[i]])
     downs = sum([-1 * (closes[i + 1] - closes[i]) for i in range(13) if closes[i + 1] < closes[i]])
 
@@ -28,25 +28,25 @@ def get_rsi(symbol):
     return rsi
 
 def get_usdt_symbols():
-    # Binance API endpoint'i
+    # Binance API endpoint
     url = "https://api.binance.com/api/v3/exchangeInfo"
 
-    # Binance API'sinden sembolleri al
+    # Get symbols from the Binance API
     response = requests.get(url)
     data = response.json()
 
-    # USDT paritesine sahip sembolleri filtrele
+    # Filter symbols with USDT parity .
     usdt_symbols = [symbol['symbol'] for symbol in data['symbols'] if symbol['quoteAsset'] == 'USDT']
 
     return usdt_symbols
 
 if __name__ == "__main__":
-    # USDT paritesine sahip sembolleri al
+    # Buy symbols with the USDT pair
     usdt_symbols = get_usdt_symbols()
-    # Tarih ve saat bilgisini istediğiniz formatta yazdırın
-    print("Şu anki tarih ve saat:", simdi)
-    # RSI değeri 29'un altında olan coinleri listele
-    print("RSI değeri 29'un altında olan coinler:")
+    # Print date and time information in any format
+    print("Current date and time:", simdi)
+    # List coins with RSI below 29
+    print("Coins with RSI below 29:")
     for symbol in usdt_symbols:
         rsi = get_rsi(symbol)
         if rsi < 29:

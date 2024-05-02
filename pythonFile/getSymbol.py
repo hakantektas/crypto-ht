@@ -2,14 +2,14 @@ import requests
 import json
 
 def get_usdt_symbols():
-    # Binance API endpoint'i
+    # Binance API endpoint
     url = "https://api.binance.com/api/v3/exchangeInfo"
     
-    # Binance API'sinden sembolleri al
+    # Get symbols from the Binance API
     response = requests.get(url)
     data = response.json()
     
-    # USDT paritesine sahip sembolleri filtrele
+    # Filter symbols with USDT pair
     usdt_symbols = [symbol['symbol'] for symbol in data['symbols'] if symbol['quoteAsset'] == 'USDT']
     
     return usdt_symbols
@@ -21,4 +21,4 @@ def write_to_json_file(data, filename):
 if __name__ == "__main__":
     usdt_symbols = get_usdt_symbols()
     write_to_json_file(usdt_symbols, 'usdt_symbols.json')
-    print("USDT paritesine sahip semboller başarıyla JSON dosyasına yazıldı.")
+    print("Symbols with USDT parity were successfully written to the JSON file.")
