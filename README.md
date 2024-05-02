@@ -35,7 +35,7 @@ Proje dizinine gidin
 Gerekli paketleri yükleyin
 
 ```bash {"id":"01HWTY2MR21TNQYS436NZV41TM"}
-  npm i cripto-ht
+  npm i crypto-ht
 ```
 
 RSI değeri 29 ve altında olan USDT paritesine sahip kripto paraları listelemek için çalıştırın
@@ -55,8 +55,8 @@ Binance borsasından tüm USDT paritelerini çeken ve bu pariteleri JSON format�
 crypto-ht'i npm kullanarak yükleyin
 
 ```bash {"id":"01HWTY2MR21TNQYS436F7995CG"}
-  npm i cripto-ht
-  cd your_path/cripto-ht
+  npm i crypto-ht
+  cd your_path/crypto-ht
 ```
 
 ## Çalıştırın
