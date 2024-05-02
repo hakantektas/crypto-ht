@@ -10,31 +10,6 @@ Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI
 
 **1. Python Kurulumu:** Bu betik Python 3 ile yazılmıştır. Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.
 
-**2. Gerekli Modüllerin Yüklenmesi:** Betiği çalıştırmadan önce, gerekli Python modüllerini yüklemeniz gerekebilir. Gerekli modüllerin yüklenmesi için terminal veya komut istemcisinde şu komutu kullanabilirsiniz:
-
-`requests`: HTTP istekleri yapmak için kullanılır.
-
-```javascript {"id":"01HWTY2MR14D7N697GC6H2YYSP"}
-npm install requests
-pip3 install chardet
-```
-
-**3. Betiği Çalıştırma:** Betiği çalıştırmak için terminal veya komut istemcisini açın ve betiğin bulunduğu dizine gidin. Daha sonra aşağıdaki komutu kullanarak betiği çalıştırın:
-
-Betik, RSI değeri 29'un altında olan coinlerin sembollerini json dosyasına yazdırır ,
-
-```javascript {"id":"01HWTY2MR21TNQYS4367NZB1MZ"}
-python3 getSymbol.py
-```
-
-RSI değeri 29'un altında olan coinleri ve RSI değerlerini console da yazdırır.
-
-```javascript {"id":"01HWTY2MR21TNQYS436BBER63E"}
-python3 crypto_rsi.py
-```
-
-**4. Sonuçları Görüntüleme:** Betik, RSI değeri 29'un altında olan coinlerin sembollerini ve RSI değerlerini ekrana yazdırır.
-
 ## Özellikler
 
 - RSI (Relative Strength Index), bir varlığın fiyat değişim hızını ve büyüklüğünü analiz etmek için kullanılan bir teknik göstergedir.
@@ -43,24 +18,11 @@ python3 crypto_rsi.py
 - Son olarak, RSI değerini hesaplar ve eğer 29'un altındaysa, coinin sembolünü ve RSI değerini ekrana yazdırır.
 - Bu betiği çalıştırarak, Binance kripto borsasındaki USDT paritesindeki coinlerin RSI değeri 29'un altında olanlarını listeleyebilirsiniz.
 
+## Bilgisayarınızda Çalıştırın
+
+
 ## Yükleme
 
-crypto-ht'i npm kullanarak yükleyin
-
-```bash {"id":"01HWTY2MR21TNQYS436F7995CG"}
-  npm i cripto-ht
-  cd your_path/cripto-ht
-```
-
-## Çalıştırın
-
-RSI değeri 29 ve altında olan USDT paritesine sahip kripto paraları listelemek için çalıştırın
-
-```bash {"id":"01HWTY2MR21TNQYS436GDX5CDR"}
-  npm run getRSI
-```
-
-## Bilgisayarınızda Çalıştırın
 
 Projeyi klonlayın
 
@@ -71,13 +33,15 @@ Projeyi klonlayın
 Proje dizinine gidin
 
 ```bash {"id":"01HWTY2MR21TNQYS436K5X2CEA"}
-  cd crypto-ht
+  cd [your_path]/crypto-ht
 ```
 
 Gerekli paketleri yükleyin
 
+crypto-ht'i npm kullanarak yükleyin
+
 ```bash {"id":"01HWTY2MR21TNQYS436NZV41TM"}
-  npm i cripto-ht
+  npm i crypto-ht
 ```
 
 RSI değeri 29 ve altında olan USDT paritesine sahip kripto paraları listelemek için çalıştırın
@@ -92,13 +56,18 @@ Binance borsasından tüm USDT paritelerini çeken ve bu pariteleri JSON format�
   npm run getSymbol
 ```
 
+**Sonuçları Görüntüleme:** Betik, RSI değeri 29'un altında olan coinlerin sembollerini ve RSI değerlerini ekrana yazdırır.
 ## Kullanılan Teknolojiler
 
 Bu betik Python 3 ile yazılmıştır ve [OpenAI](https://openai.com/) tarafından sağlanan GPT-3 tabanlı bir yardımcı ile oluşturulmuştur.
 
+Binance API'leri kullanılmıştır . Daha fazlası için [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)'leri incelenebilir .
+
+
+## Python Setup
+
 Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.Aşağıdaki adımları takip ederek yükleyebilirsiniz .
 
-Binance API'leri kullanılmıştır . Daha fazlası için [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)'leri incelenebilir .
 
 **Windows**
 
@@ -160,10 +129,13 @@ python3 --version
 Bu komut Python'un yüklü olduğu sürüm numarasını yazdıracaktır.
 Bu adımları izleyerek, işletim sisteminize Python 3'ü kolayca yükleyebilirsiniz.
 
+
 **Katkıda Bulunma**
 
 Bu projeye katkıda bulunmak isterseniz, lütfen bir GitHub issue açın veya bir pull request gönderin.
 
+
 ## Ekran Görüntüleri
+
 
 ![Uygulama Ekran Görüntüsü](././consoleApp.png)
