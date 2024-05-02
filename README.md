@@ -1,141 +1,139 @@
-# Binance USDT Paritelerindeki RSI Değeri Kontrolü Projesi
+# RSI Value Check Project on Binance USDT Pairs
 
-Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI (Relative Strength Index) değerlerini kontrol eden bir Python betiği içerir.
+📌 This project contains a Python script that checks the RSI (Relative Strength Index) values of coins in the USDT pairs on the Binance crypto exchange.
 
-*** Binance kripto borsasında USDT paritesinde işlem gören coinlerin RSI değerlerini kontrol etmek için oluşturulmuştur.
+📌 It was created to check the RSI values of coins traded in the USDT pair on the Binance crypto exchange.
 
-*** RSI değeri 29'un altında olan coinlerin listesini oluşturur.
+🛑 "This application is not investment advice. Any decision regarding its use must be made by the user. Do your own research or consult a financial advisor before investing." 
 
-## Kullanım/Örnekler/Gereksinimler
+📖 Usage/Examples/Requirements
 
-**1. Python Kurulumu:** Bu betik Python 3 ile yazılmıştır. Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.
+📦 **1. Python Installation:** This script is written in Python 3. Make sure you have Python 3 installed on your computer.
 
-## Özellikler
+🚀 **Features**
 
-- RSI (Relative Strength Index), bir varlığın fiyat değişim hızını ve büyüklüğünü analiz etmek için kullanılan bir teknik göstergedir.
-- Bu Python betiği, her bir USDT paritesi için RSI değerini hesaplar ve RSI değeri 29'un altında olanları ekrana yazdırır.
-- Bunu gerçekleştirmek için Binance API'sini kullanır ve her bir coin için son 14 saatlik kapanış fiyatlarını alır.
-- Son olarak, RSI değerini hesaplar ve eğer 29'un altındaysa, coinin sembolünü ve RSI değerini ekrana yazdırır.
-- Bu betiği çalıştırarak, Binance kripto borsasındaki USDT paritesindeki coinlerin RSI değeri 29'un altında olanlarını listeleyebilirsiniz.
+📌 RSI (Relative Strength Index) is a technical indicator used to analyze the rate and magnitude of price change of an asset.
+📌 This Python script calculates the RSI value for each USDT pair and prints the ones with an RSI value below 29.
+📌 To do this, it uses the Binance API and fetches the last 14 hours of closing prices for each coin.
+📌 Finally, it calculates the RSI value and if it's below 29, it prints the coin's symbol and RSI value on the screen.
+📌 By running this script, you can list the coins in the USDT pair on the Binance crypto exchange that have an RSI below 29.
 
-## Bilgisayarınızda Çalıştırın
-
-
-## Yükleme
+📦 **Setup**
 
 
-Projeyi klonlayın
+Open a new terminal window and clone the Project
 
 ```bash {"id":"01HWTY2MR21TNQYS436JHZMKWG"}
   git clone https://github.com/hakantektas/crypto-ht.git
 ```
 
-Proje dizinine gidin
+Navigate to the project directory
 
 ```bash {"id":"01HWTY2MR21TNQYS436K5X2CEA"}
-  cd [your_path]/crypto-ht
+  cd crypto-ht
 ```
 
-Gerekli paketleri yükleyin
-
-crypto-ht'i npm kullanarak yükleyin
+Install the required packages
+Install crypto-ht using npm
 
 ```bash {"id":"01HWTY2MR21TNQYS436NZV41TM"}
   npm i crypto-ht
 ```
 
-RSI değeri 29 ve altında olan USDT paritesine sahip kripto paraları listelemek için çalıştırın
+Run to list cryptocurrencies with an RSI of 29 and below for the USDT pair
 
 ```bash {"id":"01HWTY2MR21TNQYS436RK8VA5D"}
   npm run getRSI
 ```
 
-Binance borsasından tüm USDT paritelerini çeken ve bu pariteleri JSON formatında bir dosyaya yazdırmak için çalıştırın
+Run to pull all USDT pairs from the Binance exchange and print them to a file in JSON format
 
 ```bash {"id":"01HWTY2MR21TNQYS436TH57CVF"}
   npm run getSymbol
 ```
 
-**Sonuçları Görüntüleme:** Betik, RSI değeri 29'un altında olan coinlerin sembollerini ve RSI değerlerini ekrana yazdırır.
-## Kullanılan Teknolojiler
+📊 Displaying Results:** The script prints the symbols and RSI values of coins with RSI below 29.
+🚀 **Technologies Used**
 
-Bu betik Python 3 ile yazılmıştır ve [OpenAI](https://openai.com/) tarafından sağlanan GPT-3 tabanlı bir yardımcı ile oluşturulmuştur.
+This script is written in Python 3 and built with a GPT-3 based helper provided by  [OpenAI](https://openai.com/) 
 
-Binance API'leri kullanılmıştır . Daha fazlası için [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)'leri incelenebilir .
-
-
-## Python Setup
-
-Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.Aşağıdaki adımları takip ederek yükleyebilirsiniz .
+Binance APIs are used. For more information, see the [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)'leri incelenebilir .
 
 
-**Windows**
+🛠️ **Python Setup**
 
-**1. Python.org'dan İndirme:**
-Python'un resmi web sitesi olan Python.org'dan Windows için Python 3 sürümünü indirin. İndirme sayfasına buradan ulaşabilirsiniz.
+Make sure you have Python 3 installed on your computer, you can install it by following the steps below.
 
-**2. Kurulum:**
-İndirdiğiniz dosyayı çalıştırarak Python 3'ü kurun. Kurulum sırasında, "Add Python 3.x to PATH" seçeneğini işaretleyerek Python'un PATH değişkenine otomatik olarak eklenmesini sağlayabilirsiniz.
 
-**3. Kontrol:**
-Python'un doğru şekilde yüklendiğinden emin olmak için bir komut istemi (Command Prompt) açın ve aşağıdaki komutu girin:
+🖥️ **Windows**
+
+⬇️ **1. Download from Python.org:**
+Download Python 3 for Windows from Python.org, the official website of Python. You can find the download page here.
+
+📦**2. Installation:**
+Install Python 3 by running the downloaded file. During installation, you can check the "Add Python 3.x to PATH" option to have Python automatically added to the PATH variable.
+
+✅ **3. Check:**
+To make sure that Python is installed correctly, open a command prompt (Command Prompt) and enter the following command:
 
 ```sh {"id":"01HWTY2MR21TNQYS436XB43MQ2"}
 python --version
 ```
 
-**macOS**
+🍎 **macOS**
 
-**1. Homebrew ile Kurulum:**
+📦 **1. Installation with Homebrew:**
 
-Eğer Homebrew yüklü değilse, önce Homebrew'ü kurun:
+If Homebrew is not installed, install Homebrew first:
 
 ```sh {"id":"01HWTY2MR21TNQYS436Z1C1JRV"}
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Ardından, aşağıdaki komutu kullanarak Python 3'ü yükleyin:
+Next, install Python 3 using the following command:
 
 ```sh {"id":"01HWTY2MR21TNQYS43702VRD9D"}
 brew install python
 ```
 
-**2. Kontrol:**
-Python'un doğru şekilde yüklendiğinden emin olmak için bir terminal açın ve aşağıdaki komutu girin:
+✅ **2. Check:**
+To make sure Python is installed correctly, open a terminal and enter the following command:
 
 ```sh {"id":"01HWTY2MR21TNQYS43715B9DCT"}
 python3 --version
 ```
 
-Bu komut Python'un yüklü olduğu sürüm numarasını yazdıracaktır.
+This command will print the version number of Python installed.
 
-**Linux (Ubuntu/Debian)**
+🐧 **Linux (Ubuntu/Debian)**
 
-**1. Apt ile Kurulum:**
-Terminal açın ve aşağıdaki komutu kullanarak Python 3'ü yükleyin:
+📦 **1. Install with Apt:**
+Open Terminal and install Python 3 using the following command:
 
 ```sh {"id":"01HWTY2MR3HTAG84CC1KACCH4M"}
 sudo apt update
 sudo apt install python3
 ```
 
-**2. Kontrol:**
-Python'un doğru şekilde yüklendiğinden emin olmak için bir terminal açın ve aşağıdaki komutu girin:
+✅ **2. Check::**
+To make sure Python is installed correctly, open a terminal and enter the following command:
 
 ```sh {"id":"01HWTY2MR3HTAG84CC1PHPXGBQ"}
 python3 --version
 ```
 
-Bu komut Python'un yüklü olduğu sürüm numarasını yazdıracaktır.
-Bu adımları izleyerek, işletim sisteminize Python 3'ü kolayca yükleyebilirsiniz.
+This command will print the version number of Python installed.
+Following these steps, you can easily install Python 3 on your operating system.
 
 
-**Katkıda Bulunma**
+🤝 **Contributing**
 
-Bu projeye katkıda bulunmak isterseniz, lütfen bir GitHub issue açın veya bir pull request gönderin.
+If you would like to contribute to this project, please open a GitHub issue or submit a pull request.
 
+🛑  Disclaimer
 
-## Ekran Görüntüleri
+This application does not offer investment advice and states that any financial decision should be made by the user. The developers do not accept any responsibility for the use of the project.
 
+📸 ## Screenshots
 
-![Uygulama Ekran Görüntüsü](././consoleApp.png)
+![Application Screenshot](././consoleApp.png)
