@@ -24,7 +24,7 @@ Bu proje, Binance kripto borsasında yer alan USDT paritelerindeki coinlerin RSI
 ## Yükleme
 
 
-Projeyi klonlayın
+Yeni bir terminal pencersi açın ve Projeyi klonlayın
 
 ```bash {"id":"01HWTY2MR21TNQYS436JHZMKWG"}
   git clone https://github.com/hakantektas/crypto-ht.git
@@ -33,7 +33,7 @@ Projeyi klonlayın
 Proje dizinine gidin
 
 ```bash {"id":"01HWTY2MR21TNQYS436K5X2CEA"}
-  cd [your_path]/crypto-ht
+  cd crypto-ht
 ```
 
 Gerekli paketleri yükleyin
