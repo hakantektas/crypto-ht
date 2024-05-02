@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HWWJACRFKA5XFAJSD71FHW7F
-  version: v3
----
-
 # RSI Value Check Project on Binance USDT Pairs
 
 📌 This project contains a Python script that checks the RSI (Relative Strength Index) values of coins in the USDT pairs on the Binance crypto exchange.
