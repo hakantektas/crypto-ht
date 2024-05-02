@@ -1,10 +1,16 @@
+---
+runme:
+  id: 01HWWJACRFKA5XFAJSD71FHW7F
+  version: v3
+---
+
 # RSI Value Check Project on Binance USDT Pairs
 
 📌 This project contains a Python script that checks the RSI (Relative Strength Index) values of coins in the USDT pairs on the Binance crypto exchange.
 
 📌 It was created to check the RSI values of coins traded in the USDT pair on the Binance crypto exchange.
 
-🛑 "This application is not investment advice. Any decision regarding its use must be made by the user. Do your own research or consult a financial advisor before investing." 
+🛑 "This application is not investment advice. Any decision regarding its use must be made by the user. Do your own research or consult a financial advisor before investing."
 
 📖 Usage/Examples/Requirements
 
@@ -19,7 +25,6 @@
 📌 By running this script, you can list the coins in the USDT pair on the Binance crypto exchange that have an RSI below 29.
 
 📦 **Setup**
-
 
 Open a new terminal window and clone the Project
 
@@ -55,15 +60,13 @@ Run to pull all USDT pairs from the Binance exchange and print them to a file in
 📊 Displaying Results:** The script prints the symbols and RSI values of coins with RSI below 29.
 🚀 **Technologies Used**
 
-This script is written in Python 3 and built with a GPT-3 based helper provided by  [OpenAI](https://openai.com/) 
+This script is written in Python 3 and built with a GPT-3 based helper provided by  [OpenAI](https://openai.com/)
 
 Binance APIs are used. For more information, see the [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)'leri incelenebilir .
-
 
 🛠️ **Python Setup**
 
 Make sure you have Python 3 installed on your computer, you can install it by following the steps below.
-
 
 🖥️ **Windows**
 
@@ -125,7 +128,6 @@ python3 --version
 This command will print the version number of Python installed.
 Following these steps, you can easily install Python 3 on your operating system.
 
-
 🤝 **Contributing**
 
 If you would like to contribute to this project, please open a GitHub issue or submit a pull request.
@@ -134,6 +136,6 @@ If you would like to contribute to this project, please open a GitHub issue or s
 
 This application does not offer investment advice and states that any financial decision should be made by the user. The developers do not accept any responsibility for the use of the project.
 
-📸 ## Screenshots
+📸 Screenshots
 
 ![Application Screenshot](././consoleApp.png)
