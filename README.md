@@ -60,7 +60,7 @@ Run to pull all USDT pairs from the Binance exchange and print them to a file in
 
 This script is written in Python 3 and built with a GPT-3 based helper provided by  [OpenAI](https://openai.com/)
 
-Binance APIs are used. For more information, see the [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)'leri incelenebilir .
+Binance APIs are used. For more information, please refer to the [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)
 
 🛠️ **Python Setup**
 
