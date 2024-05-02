@@ -13,9 +13,13 @@
 🚀 **Features**
 
 📌 RSI (Relative Strength Index) is a technical indicator used to analyze the rate and magnitude of price change of an asset.
+
 📌 This Python script calculates the RSI value for each USDT pair and prints the ones with an RSI value below 29.
+
 📌 To do this, it uses the Binance API and fetches the last 14 hours of closing prices for each coin.
+
 📌 Finally, it calculates the RSI value and if it's below 29, it prints the coin's symbol and RSI value on the screen.
+
 📌 By running this script, you can list the coins in the USDT pair on the Binance crypto exchange that have an RSI below 29.
 
 📦 **Setup**
