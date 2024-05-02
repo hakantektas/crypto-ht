@@ -94,11 +94,11 @@ Binance borsasından tüm USDT paritelerini çeken ve bu pariteleri JSON format�
 
 ## Kullanılan Teknolojiler
 
-Bu betik Python 3 ile yazılmıştır ve  https://openai.com/ tarafından sağlanan GPT-3 tabanlı bir yardımcı ile oluşturulmuştur.
+Bu betik Python 3 ile yazılmıştır ve [OpenAI](https://openai.com/) tarafından sağlanan GPT-3 tabanlı bir yardımcı ile oluşturulmuştur.
 
 Bilgisayarınızda Python 3'ün yüklü olduğundan emin olun.Aşağıdaki adımları takip ederek yükleyebilirsiniz .
 
-Binance API'leri kullanılmıştır . Daha fazlası için Binance API'leri incelenebilir . https://binance-docs.github.io/apidocs/spot/en/#introduction
+Binance API'leri kullanılmıştır . Daha fazlası için [Binance API](https://binance-docs.github.io/apidocs/spot/en/#introduction)'leri incelenebilir .
 
 **Windows**
 
