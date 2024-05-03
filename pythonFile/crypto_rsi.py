@@ -6,7 +6,7 @@ from datetime import datetime
 simdi = datetime.now()
 def get_rsi(symbol):
     # Binance API endpoint
-    url = f"https://api.binance.com/api/v3/klines?symbol={symbol}&interval=1h&limit=14"
+    url = f"https://api.binance.com/api/v3/klines?symbol={symbol}&interval=4h&limit=14"
 
     # Get data from Binance API
     response = requests.get(url)
