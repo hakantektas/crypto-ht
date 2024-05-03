@@ -4,6 +4,10 @@
 
 📌 It was created to check the RSI values of coins traded in the USDT pair on the Binance crypto exchange.
 
+📌 This script checks the RSI (Relative Strength Index) values of all cryptocurrencies with the USDT pair listed on the Binance exchange. RSI is a technical indicator used to determine whether an asset is overbought or oversold.
+
+📌 The script analyzes the price changes for each cryptocurrency over a certain period (here 14 hours). As a result of this analysis, it identifies cryptocurrencies whose RSI value falls below 29. This may indicate that the price of that cryptocurrency is oversold.
+
 🛑 "This application is not investment advice. Any decision regarding its use must be made by the user. Do your own research or consult a financial advisor before investing."
 
 📖 Usage/Examples/Requirements
@@ -21,6 +25,14 @@
 📌 Finally, it calculates the RSI value and if it's below 29, it prints the coin's symbol and RSI value on the screen.
 
 📌 By running this script, you can list the coins in the USDT pair on the Binance crypto exchange that have an RSI below 29.
+
+📌 Data are taken as 4-hour candlesticks.
+
+📌 14 is the period used to calculate the RSI (Relative Strength Index). To calculate the RSI, the average gain and average loss values of price changes over a given period are usually calculated. This period refers to a time frame used to analyze the price changes of an asset.
+
+📌 For example, in a period of 14, the price changes of the last 14-hour candlestick are taken into account. This is used in the RSI calculation to calculate the average gain and average loss of the last 14 hours of price movements.
+
+📌 The length of the period can vary depending on the asset being analyzed and the timeframe used. 14 is used here because RSI traditionally has a default setting of 14 periods.
 
 📦 **Setup**
 
