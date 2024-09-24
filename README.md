@@ -6,7 +6,7 @@
 
 📌 This script checks the RSI (Relative Strength Index) values of all cryptocurrencies with the USDT pair listed on the Binance exchange. RSI is a technical indicator used to determine whether an asset is overbought or oversold.
 
-📌 The script analyzes the price changes for each cryptocurrency over a certain period (here 14 hours). As a result of this analysis, it identifies cryptocurrencies whose RSI value falls below 29. This may indicate that the price of that cryptocurrency is oversold.
+📌 The script analyzes the price changes for each cryptocurrency over a certain period (here 14 hours). As a result of this analysis, it identifies cryptocurrencies whose RSI value falls below 29 and and RSI value rising above 80 on the daily timeframe. This may indicate that the price of that cryptocurrency is oversold.
 
 🛑 "This application is not investment advice. Any decision regarding its use must be made by the user. Do your own research or consult a financial advisor before investing."
 
@@ -22,7 +22,7 @@
 
 📌 To do this, it uses the Binance API and fetches the last 14 hours of closing prices for each coin.
 
-📌 Finally, it calculates the RSI value and if it's below 29, it prints the coin's symbol and RSI value on the screen.
+📌 Finally, it calculates the RSI value and if it's below 29 and RSI value rising above 80 on the daily timeframe, it prints the coin's symbol and RSI value on the screen.
 
 📌 By running this script, you can list the coins in the USDT pair on the Binance crypto exchange that have an RSI below 29.
 
@@ -55,7 +55,7 @@ Install crypto-ht using npm
   npm i crypto-ht
 ```
 
-Run to list cryptocurrencies with an RSI of 29 and below for the USDT pair
+Run to list cryptocurrencies with an RSI of 29 and below for the USDT pair and RSI value rising above 80 on the daily timeframe
 
 ```bash {"id":"01HWTY2MR21TNQYS436RK8VA5D"}
   npm run getRSI
@@ -67,7 +67,7 @@ Run to pull all USDT pairs from the Binance exchange and print them to a file in
   npm run getSymbol
 ```
 
-📊 Displaying Results:** The script prints the symbols and RSI values of coins with RSI below 29.
+📊 Displaying Results:** The script prints the symbols and RSI values of coins with RSI below 29 and RSI value rising above 80 on the daily timeframe.
 🚀 **Technologies Used**
 
 This script is written in Python 3 and built with a GPT-3 based helper provided by  [OpenAI](https://openai.com/)
