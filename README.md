@@ -35,9 +35,12 @@
 📌 The length of the period can vary depending on the asset being analyzed and the timeframe used. 14 is used here because RSI traditionally has a default setting of 14 periods.
 
 **Remarks**
-```get_rsi**(symbol, interval='1d'):```Uses daily (1d) timeframe for RSI calculation. ```limit=14```, gets 14 days of closing prices.
-```get_usdt_symbols():``` Retrieves all symbols with the USDT pair from the Binance API.
-**Results:** ```Coins with RSI below 29:``` and ```Coins with RSI above 80: ```lists cryptocurrencies with RSI values in the specified range.
+
+📌  ```get_rsi**(symbol, interval='1d'):```Uses daily (1d) timeframe for RSI calculation. ```limit=14```, gets 14 days of closing prices.
+
+📌  ```get_usdt_symbols():``` Retrieves all symbols with the USDT pair from the Binance API.
+
+📌  **Results:** ```Coins with RSI below 29:``` and ```Coins with RSI above 80: ```lists cryptocurrencies with RSI values in the specified range.
 
 📦 **Setup**
 
